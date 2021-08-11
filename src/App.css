@@ -55,6 +55,9 @@ body {
  body #container .timer .timer-control button:active {
 	 color: #13353a;
 }
+.warning{
+	color: red;
+}
  @media screen and (max-width: 500px) {
 	 #container {
 		 transform: scale(0.8);
@@ -64,16 +67,3 @@ body {
 		 -o-transform: scale(0.8);
 	}
 }
- .author {
-	 text-align: center;
-	 font-family: Share Tech Mono, sans;
-	 margin-top: 15px;
-	 font-size: 14px;
-	 color: #a50d0d;
-}
- .author a {
-	 text-decoration: none;
-	 color: #00264d;
-	 line-height: 26px;
-}
- 
